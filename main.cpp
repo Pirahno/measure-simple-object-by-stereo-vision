@@ -1,4 +1,4 @@
-// cv_ceshi1.cpp : 定义控制台应用程序的入口点。
+﻿// cv_ceshi1.cpp : 定义控制台应用程序的入口点。
 //
 
 #include "stdafx.h"
@@ -600,7 +600,7 @@ while (cam2.read(rgbImageL) && cam1.read(rgbImageR))
 return 0;
 }
 
-//save
+//save left,right camera picture 
 /*
 int main()
 {
